@@ -5,7 +5,9 @@ import numpy as np
 import os
 import platform as plat
 
-
+#Santiago Sepúlveda Landeros
+#0212496
+#Ingeniería Mecatrónica
 
 def clear_console():
     os_name=plat.system()
@@ -49,7 +51,7 @@ def programa2(): #Programa 2 resuelt con lo visto en clase
     for i in range(T+1): xs.append(minx+dx*i)
     for i in range(T+1):
         x=xs[i]
-        y=math.e**abs(-x)* math.cos(2 * math.pi * x)
+        y=(math.e**(abs(x)))* math.cos(2 * math.pi * x)
         ys.append(y)
         
     N=1000

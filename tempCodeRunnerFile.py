@@ -1,3 +1,1 @@
-
-            digit = temp % 10
-            sum += dig
+add_patch

@@ -1,3 +1,4 @@
+import math
 class Persona():
     def __init__(self, nombre, edadP, genero):
         self.nombre= nombre
@@ -26,6 +27,8 @@ class Punto2D():
         x = self.x + otro_punto.x
         y = self.y + otro_punto.y
         return x, y
+    def CalcularMagnitud(self):
+        return math.sqrt(pow(self.x,2)+pow(self.x,2))
         
         
 persona_1 = Persona("Santiago",19,"Masculino")
